@@ -1,0 +1,39 @@
+/*
+sélecteur {
+        propriété-css: valeur
+}
+*/
+.body {
+    padding-bottom: 2800px;
+}
+.barre_grise {
+    position: fixed;
+    width: 5%;
+    margin-left: 30px;
+    margin-top: 170px;
+    margin-top: ;
+}
+.recherche {
+    position:fixed;
+    width: 4%;
+    margin-left: 40px;
+    margin-top: 190px;
+}
+.horaires {
+    position:fixed;
+    width: 4%;
+    margin-left: 40px;
+    margin-top: 270px;
+}
+.lieux {
+    position:fixed;
+    width: 4%;
+    margin-left: 40px;
+    margin-top: 355px;
+}
+.reservation {
+    position:fixed;
+    width: 4%;
+    margin-left: 40px;
+    margin-top: 430px;
+}
