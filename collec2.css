@@ -1,0 +1,101 @@
+/*
+sélecteur {
+        propriété-css: valeur
+}
+*/
+.body {
+    background-color: #D9D9D9;
+    padding-bottom: 2800px;
+}
+
+.img_1 {
+    position:absolute;
+    margin-top: 121px;
+    margin-left: 144px;
+}
+.img_2 {
+    position:absolute;
+    margin-top: 121px;
+    margin-left: 1030px;
+}
+.img_3 {
+    position:absolute;
+    margin-top: 503px;
+    margin-left: 144px;
+}
+.img_4 {
+    position:absolute;
+    margin-top: 506px;
+    margin-left: 621px;
+}
+.boutonCo:hover {
+    color: #920a0a;
+    background:rgb(255, 255, 255);
+}
+.limite {
+    position:absolute;
+    margin-top: 1010px;
+    width: 98.9vw;
+    height: 1%;
+}
+.boutonCo {
+    margin-top: 982px;
+    margin-left: 500px;
+    width: 467px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #920A0A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    flex-wrap: wrap;
+    position:absolute;
+}
+.img_5 {
+    position:absolute;
+    margin-top: 1151px;
+    margin-left: 144px;
+}
+.img_6 {
+    position:absolute;
+    margin-top: 1151px;
+    margin-left: 1030px;
+}
+.img_7 {
+    position:absolute;
+    margin-top: 1533px;
+    margin-left: 144px;
+}
+.img_8 {
+    position:absolute;
+    margin-top: 1533px;
+    margin-left: 628px;
+}
+.img_8 {
+    position:absolute;
+    margin-top: 1533px;
+    margin-left: 628px;
+}
+.img_9 {
+    position:absolute;
+    margin-top: 1533px;
+    margin-left: 1030px;
+}
+.img_10 {
+    position:absolute;
+    margin-top: 2050px;
+    margin-left: 144px;
+}
+.img_11 {
+    position:absolute;
+    margin-top: 2241px;
+    margin-left: 672px;
+}
