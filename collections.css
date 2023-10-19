@@ -1,0 +1,60 @@
+/*
+sélecteur {
+        propriété-css: valeur
+}
+*/
+.body {
+    background-color: #D9D9D9;
+    padding-bottom: 97px;
+}
+.boutonCo:hover {
+    color: #920a0a;
+    background:rgb(255, 255, 255);
+}
+.limite {
+    position:absolute;
+    margin-top: 37px;
+    width: 98.9vw;
+    height: 1%;
+}
+.span {
+    background-color: #ffffff;
+}
+.boutonCo {
+    margin-top: 10px;
+    margin-left: 500px;
+    width: 467px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #920A0A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    flex-wrap: wrap;
+    position:absolute;
+}
+.img_t_l {
+    margin-left: 121px;
+    margin-top: 170px;
+}
+.img_t_r {
+    margin-left: 140px;
+    margin-top: 170px;
+}
+.img_c_l {
+    margin-left: 121px;
+    margin-top: 140px;
+}
+.img_c_c {
+    position:absolute;
+    margin-top: 140px;
+    margin-left: 67px;
+}
