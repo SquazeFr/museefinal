@@ -54,7 +54,7 @@ a:hover{
 .droitegauche {
     font-family: Montserrat;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .suivre fb{
     font-family: Montserrat;
