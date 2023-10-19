@@ -1,30 +1,16 @@
-/*
-sélecteur {
-        propriété-css: valeur
-}
-*/
-.body {
-    background-color: #D9D9D9;
-    padding-bottom: 2800px;
-}
-
 .img_1 {
-    position:absolute;
     margin-top: 121px;
     margin-left: 144px;
 }
 .img_2 {
-    position:absolute;
     margin-top: 121px;
     margin-left: 1030px;
 }
 .img_3 {
-    position:absolute;
     margin-top: 503px;
     margin-left: 144px;
 }
 .img_4 {
-    position:absolute;
     margin-top: 506px;
     margin-left: 621px;
 }
@@ -33,7 +19,6 @@ sélecteur {
     background:rgb(255, 255, 255);
 }
 .limite {
-    position:absolute;
     margin-top: 1010px;
     width: 98.9vw;
     height: 1%;
@@ -60,42 +45,34 @@ sélecteur {
     position:absolute;
 }
 .img_5 {
-    position:absolute;
     margin-top: 1151px;
     margin-left: 144px;
 }
 .img_6 {
-    position:absolute;
     margin-top: 1151px;
     margin-left: 1030px;
 }
 .img_7 {
-    position:absolute;
     margin-top: 1533px;
     margin-left: 144px;
 }
 .img_8 {
-    position:absolute;
     margin-top: 1533px;
     margin-left: 628px;
 }
 .img_8 {
-    position:absolute;
     margin-top: 1533px;
     margin-left: 628px;
 }
 .img_9 {
-    position:absolute;
     margin-top: 1533px;
     margin-left: 1030px;
 }
 .img_10 {
-    position:absolute;
     margin-top: 2050px;
     margin-left: 144px;
 }
 .img_11 {
-    position:absolute;
     margin-top: 2241px;
     margin-left: 672px;
 }
