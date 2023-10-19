@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="newsL.css">
     <link rel="stylesheet" href="presmuse.css">
     <link rel="stylesheet" href="infop.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="carroussel.css">
+    <script src="carroussel.js" defer></script>
     <title>Document</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -39,14 +40,20 @@
     <main>
 		
 		<section>
-			<h2 class="titre">Portrait éphémère du JAPON,
+            <div class="grid">
+			    <h2 class="titre">Portrait éphémère du JAPON,
 				photographie de Pierre-Elie
 				DE PIBRAC
-			</h2>
-			<button class="boutonR">Réserver</button>
+			    </h2>
+            </div>
+            <div class="grid-text">
+                <div class="grid-dem">
+			        <button class="boutonR">Réserver</button>
+                </div>
+            </div>
 
 			<div class="bandeNoire">
-				<p><time datetime="10:00 ">10:00 </time> à <time datetime="18:00 "></time>18:00- Du 20 Septembre 2023 au 15 janvier 2024</p>
+				<p>10:00 à 18:00- Du 20 Septembre 2023 au 15 janvier 2024</p>
 			</div>
         </section>
 
@@ -54,13 +61,33 @@
 			<div>
 				<h3>L'ACTUALITÉ</h3>
 			</div>
-            <article class="photoun"> 
-                <img src="images/photo_centre_actu.png" alt="photo actu">
-                <p>20 septembre 2023 - 15 janvier 2024</p>
-            </article>
+            <div class="container">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="slide">
+                            <img src="images/photo_centre_actu.png"
+                                alt="Image 1">
+                        </div>
+                        <div class="slide">
+                            <img src="images/ManishPushkale_4.jpg"
+                                alt="Image 2">
+                        </div>
+                        <div class="slide">
+                            <img src="images/actu2.jpg"
+                                alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button id="prev">Précédent</button>
+                        <button id="next">Suivant</button>
+                    </div>
+                    <div class="carousel-dots">
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="muse">
+        <section >
         <div class="presentation">
             <h2>Présentation<br>du Musée</h2>
             <p>Le musée Guimet est né du grand projet d’un industriel lyonnais, Émile Guimet (1836-1918), de créer un musée des religions de l’Égypte, de l’antiquité classique et des pays d’Asie. Des voyages en Égypte, en Grèce, puis un tour du monde en 1876, avec des étapes au Japon, en Chine et en Inde lui permirent de réunir d’importantes collections qu’il présenta à Lyon à partir de 1879.</p>
@@ -82,7 +109,7 @@
         <body>
         <article class="infp">
             <section>
-                <img src="images/plan.png" alt="map">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6384551581614!2d2.291114976180761!3d48.8651043002344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe5cd3929c3%3A0xb5ec0412a7bc9c89!2sMus%C3%A9e%20national%20des%20arts%20asiatiques%20-%20Guimet!5e0!3m2!1sfr!2sfr!4v1697707496364!5m2!1sfr!2sfr" width="40%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div>
                 <h2>INFORMATIONS<br>PRATIQUES</h2>
                 <p >Ouvert tous les jours,<br>à l'exeption du mardi, de 10h à 17h45.</p>

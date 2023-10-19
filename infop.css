@@ -1,6 +1,9 @@
 .infp{
-    background-color: #ddd1d1;
-    padding-bottom: 10%;
+    background-color: white;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left:5%;
+    padding-right: 4%;
 }
 
 .infp h2{
@@ -11,21 +14,14 @@
     font-style: normal;
     font-weight: 500px;
     line-height: normal;
-    margin-top: 128px;
     margin-left: 5%;
     margin-right: 179px;
     display: flex;
 }
 
-.infp img{
-    display: flex;
-    text-align: right;
-    margin-top: 10%;
-    margin-left: 10%;
-    width: 25%;
-    height: 55%;
+.infp map{
+    margin-top: 20px;
 }
-
 .infp p{
     display: flex;
     text-align: left;
@@ -33,6 +29,7 @@
     color: #000;
     font-family: 'Montserrat';
     font-size: 30px;
+    margin-top: 5%;
     font-style: normal;
     width: 100%;
 }

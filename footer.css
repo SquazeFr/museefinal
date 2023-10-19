@@ -16,6 +16,9 @@ a {
     margin-left: 90px;
 }
 
+.res{
+    justify-content: space-between;
+}
 a:hover{
     color: #E30000;
 }
@@ -30,23 +33,23 @@ a:hover{
     color: white
 }
 .minist {
-    padding-left: 133px;
-    padding-top: 100px;
+    padding-left: 10%;
+    padding-top: 10%;
 }
 .colline {
-    padding-left: 50px;
+    padding-left: 2%;
 }
 .ba {
-    padding-left: 55px;
+    padding-left: 1%;
 }
 .itm {
-    padding-left: 75px;
+    padding-left: 3%;
 }
 .pp {
-    padding-left: 75px;
+    padding-left: 3%;
 }
 .akar {
-    padding-left: 75px;
+    padding-left: 3%;
 }
 .droitegauche {
     font-family: Montserrat;
