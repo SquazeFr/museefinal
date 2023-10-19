@@ -15,12 +15,12 @@
     font-weight: 500px;
     line-height: normal;
     margin-left: 5%;
-    margin-right: 179px;
+    margin-right: 50%;
     display: flex;
 }
 
 .infp map{
-    margin-top: 20px;
+    margin-top: 10%;
 }
 .infp p{
     display: flex;
@@ -39,3 +39,17 @@
     height: 100%;
     display: flex;
 }
+
+@media screen and (max-width : 960px){
+    .infp h2{
+        font-size: 40px;
+    }
+    .presentation p{
+        font-size: 20px;
+    }
+    .presentation boutonR-small{
+        padding: 5px 10px;
+        font-size: 30px;
+    }
+}
+
