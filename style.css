@@ -13,7 +13,7 @@ header {
     padding: 5px;
     background-color: #FFF;
     color: #333;
-	height: 190px;
+	height: 100%;
 }
 
 header .bandeauSup{
@@ -36,6 +36,9 @@ nav ul {
     width: 100%;
 }
 
+nav ul li {
+    padding-left: 20%;
+}
 nav ul li a {
 	text-align: center;
     text-decoration: none;
@@ -111,7 +114,7 @@ nav ul li a:hover{
 
 .presentation-grid {
     row-gap: 0px;
-  }
+}
 .boutonR:hover {
     color: #920A0A;
     background:white 
@@ -163,7 +166,17 @@ nav ul li a:hover{
     line-height: normal;
 }
 
-
+@media screen and (max-width : 960px){
+    .actualite h3{
+        font-size: 40px;
+    }
+    .bandeNoire p{
+        font-size : 25px;
+    }
+    nav ul{
+        font-size: 10px;
+    }
+}
 .boutons  {
     display: flex;
     justify-content: space-between;
@@ -221,5 +234,8 @@ h2 {
     }
     h2 {
         font-size: 30px;
+    }
+    .nomMusee h1{
+        font-size: 100px;
     }
 }
