@@ -56,13 +56,13 @@ a:hover{
     display:flex;
     justify-content: space-between;
 }
-.suivre {
+.suivre fb{
     font-family: Montserrat;
     justify-content: flex-end;
     margin-left: 100px;
     margin-top: 175px;
     color: white
-    
+
 }
 .boutonC {
     margin-bottom: 120px;
