@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="newsL.css">
+    <link rel="stylesheet" href="presmuse.css">
+    <link rel="stylesheet" href="infop.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+    </style>
+	
+</head>
+<body>
+    <header>
+        <div class="bandeauSup">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Billeterie</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">En ce moment</a></li>
+                    <li><a href="#">Agenda</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nomMusee">
+            <h1>Musée GUIMET</h1>
+        </div>
+    </header>
+    <main>
+		
+		<section>
+			<h2 class="titre">Portrait éphémère du JAPON,
+				photographie de Pierre-Elie
+				DE PIBRAC
+			</h2>
+			<button class="boutonR">Réserver</button>
+
+			<div class="bandeNoire">
+				<p><time datetime="10:00 ">10:00 </time> à <time datetime="18:00 "></time>18:00- Du 20 Septembre 2023 au 15 janvier 2024</p>
+			</div>
+        </section>
+
+		<section class="actualite"> <!--erreur 2-->
+			<div>
+				<h3>L'ACTUALITÉ</h3>
+			</div>
+            <article class="photoun"> 
+                <img src="images/photo_centre_actu.png" alt="photo actu">
+                <p>20 septembre 2023 - 15 janvier 2024</p>
+            </article>
+        </section>
+
+        <section class="muse">
+        <div class="presentation">
+            <h2>Présentation<br>du Musée</h2>
+            <p>Le musée Guimet est né du grand projet d’un industriel lyonnais, Émile Guimet (1836-1918), de créer un musée des religions de l’Égypte, de l’antiquité classique et des pays d’Asie. Des voyages en Égypte, en Grèce, puis un tour du monde en 1876, avec des étapes au Japon, en Chine et en Inde lui permirent de réunir d’importantes collections qu’il présenta à Lyon à partir de 1879.</p>
+            <button class="boutonR-small" type="submit">En savoir plus</button>
+        </div>
+        </section>
+
+        <section>
+            <div class="newsletter">
+                <h2>NEWSLETTER</h2>
+                <p>Recevoir les nouvelles du musée</p>
+                <form class="newsletter-form" action="/submit" method="post">
+                    <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+                    <button class="boutonR-small" type="submit">Rester informé</button>
+                </form>
+            </div> 
+        </section>
+
+        <body>
+        <article class="infp">
+            <section>
+                <img src="images/plan.png" alt="map">
+            <div>
+                <h2>INFORMATIONS<br>PRATIQUES</h2>
+                <p >Ouvert tous les jours,<br>à l'exeption du mardi, de 10h à 17h45.</p>
+                <p> Contactez nous : helene.baudelet@guimet.fr<br> ou 01 55 73 31 62</p>
+            </div>    
+            </section>
+        </article>
+    </main>
+
+    <footer class="foot">
+        <section class="droitegauche">
+            <article class="gauche">
+                <img class="logo1" src="images/logo_musee_f.png" alt="logo_footeur"/>
+                <ul class="liste_g">
+                    <li><a class="mentleg" href="___________">Mentions légales</a></li>
+                    <li><a class="donpers" href="___________">Données personnelles</a></li>
+                    <li><a class="cook" href="___________">Cookies</a></li>
+                    <li><a class="access" href="___________">Accessibilité</a></li>
+                    <li><a class="cred" href="___________">Crédits</a></li>
+                    <li><a class="credphoto" href="___________">Crédits photographies</a></li>
+                </ul>
+            </article>
+            <article class="droite">
+                <h2 class="suivre">Suivre le musée</h2>
+                <div class="res">
+                    <a href="https://www.facebook.com/museeguimet/?locale=fr_FR"><img class="fb" src="images/facebook.png" alt="fb"/></a>
+                    <a href="https://www.instagram.com/museeguimet/?hl=fr"><img class="ig" src="images/instagram.png" alt="ig"/></a>
+                    <a href="https://twitter.com/MuseeGuimet?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="x" src="images/twitter.png" alt="x"/></a>
+                    <a href="https://www.youtube.com/channel/UCG9v5AW7dKE8FnCOGNVJsZg"><img class="yt" src="images/youtube.png" alt="yt"/></a>
+                </div>
+                <ul class="liste_d">
+                    <li><a href="___________">Billeterie</a></li>
+                    <li><a href="___________">Collections</a></li>
+                    <li><a href="___________">En ce moment</a></li>
+                    <li><a href="___________">Agenda</a></li>
+                </ul>
+                <button class="boutonC">Contact</button>
+            </article>
+        </section>
+        <h2 class="parts">Nos partenaires</h2>
+        <span>
+            <img class="minist" src="images/ministere_de_la_culture.png" alt="minist"/>
+            <img class="colline" src="images/la_colline_des_arts.png" alt="colline"/>
+            <img class="ba" src="images/beauxarts.png" alt="ba"/>
+            <img class="itm" src="images/itm.png" alt="itm"/>
+            <img class="pp" src="images/paris_premiere.png" alt="pp"/>
+            <img class="akar" src="images/akar_prakar.png" alt="akar"/>
+        </span>
+    </footer>
+</body>
+</html>

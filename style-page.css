@@ -1,0 +1,77 @@
+
+.presentation h2 {
+    color: black;
+    font-size: 60px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    font-style: normal;
+    word-wrap: break-word;
+    text-align: left;
+    margin-top: 40;
+    margin-left: 10%;
+
+}
+
+.presentation p {
+    color: black;
+    background-color: #D9D9D9;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    word-wrap: break-word;
+    justify-content: space-between;
+    text-align: justify,end;
+    margin-left: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    display: flex;
+}
+
+.presentation boutonR-small {
+    font-size: 30px;
+    text-align: left;
+    font-family:'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 60px;
+    line-height: normal; 
+    background: #920A0A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    padding: 10px 20px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.presentation boutonR-small {
+    margin-bottom: 120px;
+    margin-left: 741px;
+    width: 237px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #920A0A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    flex-wrap: wrap;
+}
+
+.boutonR-small:hover {
+    color: #920A0A;
+    background:white 
+}

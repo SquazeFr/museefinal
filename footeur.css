@@ -1,0 +1,97 @@
+/*
+sélecteur {
+        propriété-css: valeur
+}
+*/
+.foot {
+    background-color: black;
+    padding-bottom: 907px;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    left: 133px;
+    margin-bottom: 133px;
+    margin-left: 90px;
+}
+
+a:hover{
+    color: #E30000;
+}
+.logo1{
+    padding-left: 133px;
+    padding-top: 100px;
+}
+.parts {
+    text-decoration: none;
+    font-family: Montserrat;
+    text-align: center;
+    color: white
+}
+.minist {
+    padding-left: 133px;
+    padding-top: 100px;
+}
+.colline {
+    padding-left: 50px;
+}
+.ba {
+    padding-left: 55px;
+}
+.itm {
+    padding-left: 75px;
+}
+.pp {
+    padding-left: 75px;
+}
+.akar {
+    padding-left: 75px;
+}
+.droitegauche {
+    font-family: Montserrat;
+    display:flex;
+    justify-content: space-between;
+}
+.suivre {
+    font-family: Montserrat;
+    justify-content: flex-end;
+    margin-left: 100px;
+    margin-top: 175px;
+    color: white
+}
+.boutonC {
+    margin-bottom: 120px;
+    margin-left: 741px;
+    width: 237px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #920A0A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    flex-wrap: wrap;
+    margin-left: 90px;
+}
+
+.boutonC:hover {
+    color: #920a0a;
+    background:white;
+    margin-left: 90px;
+}
+.liste_g {
+    margin-top: 80px;
+}

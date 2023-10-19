@@ -1,0 +1,44 @@
+.infp{
+    background-color: #ddd1d1;
+    padding-bottom: 10%;
+}
+
+.infp h2{
+    color: #000;
+    text-align: left;
+    font-family: 'Montserrat Alternates';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: normal;
+    margin-top: 128px;
+    margin-left: 5%;
+    margin-right: 179px;
+    display: flex;
+}
+
+.infp img{
+    display: flex;
+    text-align: right;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 25%;
+    height: 55%;
+}
+
+.infp p{
+    display: flex;
+    text-align: left;
+    margin-left: 5%;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-style: normal;
+    width: 100%;
+}
+
+.infp section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
