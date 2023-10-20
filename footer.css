@@ -6,14 +6,13 @@
     text-decoration: none;
     color: #FFF;
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    left: 133px;
-    margin-bottom: 133px;
-    margin-left: 90px;
+    margin-bottom: 30%;
+    margin-left: 20%;
 }
 
 .res{
@@ -28,7 +27,7 @@ a:hover{
 }
 .parts {
     text-decoration: none;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     text-align: center;
     color: white
 }
@@ -52,14 +51,14 @@ a:hover{
     padding-left: 3%;
 }
 .droitegauche {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     display:flex;
     justify-content: space-between;
 }
 .suivre {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     justify-content: flex-end;
-    margin-left: 100px;
+    width: 100%;
     margin-top: 175px;
     color: white
 }
@@ -92,12 +91,12 @@ a:hover{
     margin-left: 90px;
 }
 .liste_g {
-    margin-top: 80px;
+    margin-top: 20%;
     font-size: 50px;
 }
 .liste_d {
-    margin-top: 105px;
-    margin-right: 50px ;
+    margin-top: 15%;
+    margin-right: 10% ;
     font-size: 50px;
 }
 
@@ -118,9 +117,10 @@ a:hover{
         width: 100%;
     }
     .boutonC{
+        width: 100%;
         font-size: 22px;
         font-weight: 375;
-        margin-left: 71px;
+        margin-left: 15%;
         margin-top: 15px;
     }
 
