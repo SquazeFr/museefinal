@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     font-family: 'Montserrat Alternates', sans-serif;
 	background-image: url("images/fuji.jpg");
     flex-wrap: wrap;
@@ -8,79 +8,77 @@ body {
     background-size: contain;
 }
 
-header {
-    align-items: center;
-    padding: 5px;
-    background-color: #FFF;
-    color: #333;
-	height: 100%;
-}
 
-header .bandeauSup{
-    display: flex;
-}
-
-.logo img {
-    width: 60%; 
-}
-
-nav {
-    width: 100%;
-}
-nav ul {
-	
-    padding-top: -20%;
-    list-style: none;
-    display: flex;
-	font-size: 100%;
-    width: 100%;
-}
-
-nav ul li {
-    padding-left: 20%;
-}
-nav ul li a {
-	text-align: center;
-    text-decoration: none;
-    color: #333;
-}
-nav ul li a:hover{
-    color: #e30000;
-}
-
-.bandeauSup {
-	width:100%;
-	height:10%;
-}
-.nomMusee h1 {
-    color: #4D5BA0;
-    padding-top: 4%;
-    font-size: 625%;
-    color: #000;
-    text-align: center;
+.navbar {
+    background-color: #fff; 
+    color: #000; 
+    text-align: center; 
     font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 200%;
-    line-height: normal; 
 }
 
-:root {
-    --grid-gap: 30px;
-}
-.grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: var(--grid-gap);
+/* Style du logo */
+.logo{
+    float: left;
+    margin-left: -1%;
 }
 
-.grid-dem{
-    padding: var(--grid-gap);
-    grid: 2/ 8;
+.logo img{
+    width: 35%;
 }
+/* Style de la ligne supérieure */
+.top-nav {
+    background-color: #fff; 
+    padding: 1% 0; 
+}
+
+.top-nav ul {
+    list-style: none; 
+}
+
+.top-nav li {
+    display: inline-block; 
+    margin: 0 3%; 
+}
+
+.top-nav a {
+    text-decoration: none; 
+    color: #000; 
+    font-weight: bold; 
+}
+
+/* Style de la ligne inférieure (titre) */
+.bottom-nav {
+    background-color: #fff; 
+    padding: 10px 0; 
+    font-family: 'Montserrat Alternates';
+    color: #000;
+}
+
+.bottom-nav h1 {
+    font-size: 600%; 
+    font-weight: bold; 
+}
+
+
+@media (max-width: 960px) {
+    .top-nav li {
+        margin: 0 10px; 
+    }
+
+    .bottom-nav h1 {
+        font-size: 400%; 
+    }
+    .logo img{
+        width: 25%;
+        margin-left: -8%;
+    }
+}
+
+
 .titre {
     margin-top: 12%;
     margin-bottom: 5%;
-    margin-left: 725px;
+    margin-left: 50%;
     color: #FFF;
     font-family: 'Montserrat Alternates';
     font-size: 225%;
@@ -94,7 +92,7 @@ nav ul li a:hover{
     grid: 9 / 12;
     margin-bottom: 10%;
     margin-left: 55%;
-    width: 237px;
+    width: 16%;
     height: 63px;
     flex-shrink: 0;
     border-radius: 60px;
@@ -123,7 +121,7 @@ nav ul li a:hover{
 .bandeNoire {
 
     width: 100%;
-    height: 100px;
+    height: 8%;
     flex-shrink: 0; 
     background-color: black;
     color: white;
@@ -134,14 +132,13 @@ nav ul li a:hover{
     font-size: 35px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal; 
 }
 
 .bandeNoire p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 2%;
 
 }
 
@@ -172,9 +169,20 @@ nav ul li a:hover{
     }
     .bandeNoire p{
         font-size : 25px;
+        padding-top: 4%;
     }
     nav ul{
         font-size: 10px;
+    }
+    .titre {
+        font-size: 150%;
+    }
+    .boutonR {
+        font-size: 150%;
+        width: 20%;
+    }
+    .nomMusee h1 {
+        font-size: 400%;
     }
 }
 .boutons  {
