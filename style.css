@@ -74,39 +74,22 @@ body {
     }
 }
 
-.icon{
-    display: flex;
-    flex-direction: column;
+.barre_de_nav > *{
+    display: block;
+    margin-bottom: 20px;
 }
-.barre_grise {
+.barre_de_nav > *:last-child{
+    margin-bottom: 0;
+}
+.barre_de_nav {
     position: fixed;
-    width: 5%;
+    background-color: #D9D9D9;
+    padding: 28px 12px;
+    border-radius: 60px;
+}
 
-
-}
-.recherche {
-    position:fixed;
-    width: 3%;
-    margin-left: 1%;
-    margin-top: 2%;
-}
-.horaires {
-    position:fixed;
-    width: 3%;
-    margin-left: -53%;
-    margin-top: 7%;
-}
-.lieux {
-    position:fixed;
-    width: 3%;
-    margin-left: -53%;
-    margin-top: 2%;
-}
-.reservation {
-    position:fixed;
-    width: 3%;
-    margin-left: -53%;
-    margin-top: -4%;
+.barre_de_nav img{
+    width: 40px;
 }
 .titre {
     margin-top: 12%;

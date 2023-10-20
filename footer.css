@@ -2,7 +2,7 @@
     background-color: black;
     padding-bottom: 97px;
 }
-a {
+.foot a {
     text-decoration: none;
     color: #FFF;
     text-align: center;
@@ -17,8 +17,7 @@ a {
 }
 
 .res{
-    justify-content: space-around;
-    margin-right: 100px;
+    justify-content: space-between;
 }
 a:hover{
     color: #E30000;
@@ -53,29 +52,17 @@ a:hover{
     padding-left: 3%;
 }
 .droitegauche {
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     display:flex;
     justify-content: space-between;
 }
-.suivre fb{
-    font-family: 'Montserrat';
-    justify-content: flex-end;
-    margin-left: 100px;
-    margin-top: 175px;
-    margin-right: 100px;
-    color: white
-
-}
-
 .suivre {
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     justify-content: flex-end;
     margin-left: 100px;
     margin-top: 175px;
-    margin-right: 100px;
     color: white
 }
-
 .boutonC {
     margin-bottom: 120px;
     margin-left: 741px;
