@@ -6,11 +6,9 @@
 // déclaration de la fonction et les parenthèses à la fin de la déclaration 
 // définissent la fonction et permettent de l'exécuter immédiatement.
 (function () {
-    // Utilisation de la directive "use strict" pour activer le mode strict en JavaScript
-    // Cela implique une meilleure gestion des erreurs et une syntaxe plus stricte pour le code
+
     "use stict"
 
-    // Déclare la constante pour la durée de chaque slide
     const slideTimeout = 5000;
 
     // Récupère les boutons de navigation
@@ -31,13 +29,11 @@
 
     // Fonction pour afficher un slide spécifique en utilisant un index
     function slideTo(index) {
-        // Vérifie si l'index est valide (compris entre 0 et le nombre de slides - 1)
+
         currentSlide = index >= $slides.length || index < 1 ? 0 : index;
 
-        // Boucle sur tous les éléments de type "slide" pour les déplacer
         $slides.forEach($elt => $elt.style.transform = `translateX(-${currentSlide * 100}%)`);
 
-        // Boucle sur tous les "dots" pour mettre à jour la couleur par la classe "active" ou "inactive"
         $dots.forEach(($elt, key) => $elt.classList = `dot ${key === currentSlide? 'active': 'inactive'}`);
     }
 
