@@ -100,3 +100,57 @@ a:hover{
     margin-right: 50px ;
     font-size: 50px;
 }
+
+@media screen and (max-width : 960px){
+    .droitegauche{
+        width: 100%;
+    }
+    .droite ul{
+        font-size: 12px;
+        width: 100%;
+    }
+    .gauche ul{
+        font-size: 12px;
+        width: 100%;
+    }
+    .droite h2{
+        font-size: 20px;
+        width: 100%;
+    }
+    .boutonC{
+        font-size: 22px;
+        font-weight: 375;
+        margin-left: 71px;
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    .droitegauche{
+        width: 100%;
+    }
+    .droite ul{
+        font-size: 12px;
+        width: 100%;
+    }
+    .gauche ul{
+        font-size: 12px;
+        width: 100%;
+    }
+    .droite h2{
+        font-size: 16px;
+        width: 100%;
+    }
+    .GAUCHE h2{
+        font-size: 16px;
+        width: 100%;
+    }
+    .boutonC{
+        font-size: 22px;
+        font-weight: 375;
+        margin-left: 71px;
+        margin-top: 15px;
+    }
+
+}
