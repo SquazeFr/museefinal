@@ -55,3 +55,17 @@
     }
 }
     
+
+@media screen and (max-width: 750px){
+    .boutonCo{
+        font-size: 150%;
+        height: 8%;
+        margin-top: 1%;
+    }
+    .imgbas{
+        width: 5%;
+    }
+    .imghaut{
+        width: 5%;
+    }
+}
