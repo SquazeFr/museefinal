@@ -72,15 +72,27 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal; 
-    flex-wrap: wrap;
+    .nomMusee h1 {
+        font-size: 400%;
+    }
+    h2 {
+        font-size: 30px;
+    }
 }
 
 .boutonR-small:hover {
     color: black;
 }
 
-@media screen (max-width : 960){
+@media screen and (max-width : 960px){
+    .presentation h2{
+        font-size: 40px;
+    }
     .presentation p{
         font-size: 20px;
+    }
+    .presentation boutonR-small{
+        padding: 5px 10px;
+        font-size: 30px;
     }
 }

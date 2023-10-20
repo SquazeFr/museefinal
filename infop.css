@@ -15,12 +15,14 @@
     font-weight: 500px;
     line-height: normal;
     margin-left: 5%;
+    flex-wrap: wrap;
     margin-right: 50%;
     display: flex;
 }
 
 .infp map{
     margin-top: 10%;
+    flex-wrap: wrap;
 }
 .infp p{
     display: flex;
@@ -31,6 +33,7 @@
     font-size: 30px;
     margin-top: 5%;
     font-style: normal;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -44,12 +47,12 @@
     .infp h2{
         font-size: 40px;
     }
-    .presentation p{
+    .infp p{
         font-size: 20px;
     }
-    .presentation boutonR-small{
-        padding: 5px 10px;
-        font-size: 30px;
+    .infp map{
+        width : 20%; 
+        height: 250;
     }
 }
 

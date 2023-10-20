@@ -2,7 +2,7 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: 'Montserrat Alternates', sans-serif;
-	background-image: url("images/fuji.jpg");
+	background-image: url("images/fuji.webp");
     flex-wrap: wrap;
     background-repeat: no-repeat;
     background-size: contain;
