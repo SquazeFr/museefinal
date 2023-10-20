@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat Alternates', sans-serif;
-	background-image: url("images/image-fond-titre.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -12,7 +11,7 @@ header {
     padding: 5px;
     background-color: #FFF;
     color: #333;
-	height: 190px;
+	height: 250px;
 }
 
 header .bandeauSup{
@@ -20,17 +19,19 @@ header .bandeauSup{
 }
 
 .logo img {
+    margin-top: 10%;
     width: 60%; 
 }
 
 nav {
+    margin-top: 4%;
     width: 100%;
 }
 nav ul {
-    padding-top: -20%;
+    padding-top: -15%;
     list-style: none;
     display: flex;
-	font-size: 150%;
+	font-size: 250%;
     justify-content: space-evenly;
     width: 100%;
 
@@ -45,6 +46,7 @@ nav ul li a {
 	text-align: center;
     text-decoration: none;
     color: #333;
+    text-size-adjust: 50%;
 }
 nav ul li a:hover{
     color: #e30000;
@@ -58,34 +60,44 @@ nav ul li a:hover{
 
 h2 {
     color: black;
-    font-size: 60px;
+    font-size: 70px;
     font-family: 'Montserrat Alternates';
-    font-weight: 500;
+    font-weight: 45px;
     font-style: normal;
     word-wrap: break-word;
     text-align: left;
     margin-top: 40;
     margin-left: 10%;
-
+    margin-bottom: 20px;
+    text-shadow: #333;
 }
 
-p {
+h2 {
+
+    grid-column: 2 / 8;
+}
+
+.text p {
     color: black;
     background-color: #D9D9D9;
-    font-size: 30px;
+    font-size: 15%;
     font-family: 'Montserrat';
-    font-weight: 500;
+    font-weight: 250;
     font-style: normal;
     word-wrap: break-word;
-    text-align: justify;
+    text-align: left;
     margin-left: 10%;
-    padding-top: 5%;
+    padding-top: 20%;
     padding-bottom: 5%;
     padding-left: 5%;
     padding-right: 5%;
     flex-wrap: wrap; 
     justify-content: flex-start;
     display: flex;
+}
+
+section {
+        padding: 5%;
 }
 
 :root {
@@ -100,11 +112,8 @@ p {
 
 .text {
     padding: var(--grid-gap);
+    padding-top: 15%;
 } 
-
-h2 {
-    grid-column: 2 / 8;
-}
 
 .text {
     grid-column: 1 / 9;
@@ -115,7 +124,7 @@ img {
     grid-column: 5 / 12;
     grid-row: 2;
     max-width: 100%;
-    margin-top: -90px;
+    margin-top: -70px;
 }
 
 .presentation-grid {
@@ -126,4 +135,20 @@ img {
     .grid {
     display: block;
     }
+}
+
+.margin :left{
+    width: 30px;
+}
+
+.margin :right{
+    width: 5px;
+    }
+
+.titre{
+    margin-bottom: 5%;
+    font: weight 10px; 
+    font-size: large;
+    font-weight: 30px;
+
 }
