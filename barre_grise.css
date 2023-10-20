@@ -15,25 +15,25 @@ sélecteur {
 }
 .recherche {
     position:fixed;
-    width: 4%;
-    margin-left: 40px;
-    margin-top: 190px;
+    width: 3%;
+    margin-left: 45px;
+    margin-top: 200px;
 }
 .horaires {
     position:fixed;
-    width: 4%;
-    margin-left: 40px;
-    margin-top: 270px;
+    width: 3%;
+    margin-left: 45px;
+    margin-top: 280px;
 }
 .lieux {
     position:fixed;
-    width: 4%;
-    margin-left: 40px;
-    margin-top: 355px;
+    width: 3%;
+    margin-left: 45px;
+    margin-top: 365px;
 }
 .reservation {
     position:fixed;
-    width: 4%;
-    margin-left: 40px;
-    margin-top: 430px;
+    width: 3%;
+    margin-left: 45px;
+    margin-top: 440px;
 }
