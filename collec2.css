@@ -1,5 +1,5 @@
 .imghaut{
-    max-width: 100%;
+    width: 100%;
     max-height: auto;
     display: flex;
     padding-bottom: 2%;
@@ -12,7 +12,9 @@
     display: flex;
     justify-content: center;
 }
-
+.imgbas img, .imghaut img{
+    width: 100%;
+}
 
 
 .boutonCo {
@@ -47,12 +49,7 @@
         height: 8%;
         margin-top: 1%;
     }
-    .imgbas{
-        width: 50%;
-    }
-    .imghaut{
-        width: 25%;
-    }
+
 }
     
 
@@ -62,10 +59,5 @@
         height: 8%;
         margin-top: 1%;
     }
-    .imgbas{
-        width: 5%;
-    }
-    .imghaut{
-        width: 5%;
-    }
+
 }
