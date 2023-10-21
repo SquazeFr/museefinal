@@ -44,21 +44,18 @@
     color: black;
 }
 
-@media screen and (max-width: 960px){
-    .boutonCo{
-        font-size: 150%;
-        height: 8%;
-        margin-top: 1%;
+@media screen and (max-width: 960px) {
+    .boutonCo {
+        width: 40%;
+        height: 6%;
+        font-size: 1.5rem; /* Ajustez la taille de police selon vos préférences */
     }
-
 }
-    
 
-@media screen and (max-width: 750px){
-    .boutonCo{
-        font-size: 150%;
-        height: 8%;
-        margin-top: 1%;
+@media screen and (max-width: 750px) {
+    .boutonCo {
+        width: 50%;
+        height: 5%;
+        font-size: 1.2rem; /* Ajustez la taille de police selon vos préférences */
     }
-
 }
