@@ -2,12 +2,8 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: 'Montserrat Alternates', sans-serif;
-	background-image: url("images/fuji.webp");
-    flex-wrap: wrap;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
+}
 
 .navbar {
     background-color: #fff; 
@@ -15,6 +11,7 @@ body {
     text-align: center; 
     font-family: 'Montserrat Alternates';
 }
+
 
 /* Style du logo */
 .logo{
@@ -92,6 +89,31 @@ body {
 .barre_de_nav img{
     width: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    .barre_de_nav {
+        padding: 10px 5px;
+    }
+
+    .barre_de_nav img {
+        width: 30px;
+    }
+}
+
+.imgfondtitre{
+    background-image: url("images/fuji.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative; 
+}
+
+.grid {
+background: rgba(0, 0, 0, 0.5);
+padding: 20px;
+color: white;
+text-align: center;
+}
 .titre {
     margin-top: 12%;
     margin-bottom: 5%;
@@ -127,12 +149,13 @@ body {
     flex-wrap: wrap;
 }
 
+
 .presentation-grid {
     row-gap: 0px;
 }
 .boutonR:hover {
-    color: #920A0A;
-    background:white 
+    color: black;
+
 }
 
 .bandeNoire {
@@ -200,6 +223,13 @@ body {
     }
     .nomMusee h1 {
         font-size: 400%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .boutonR {
+        width: 30%;
+        font-size: 115%;
     }
 }
 .boutons  {
