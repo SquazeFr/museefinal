@@ -48,7 +48,7 @@
     .boutonCo {
         width: 40%;
         height: 6%;
-        font-size: 1.5rem; /* Ajustez la taille de police selon vos préférences */
+        font-size: 1.5rem; 
     }
 }
 
@@ -56,6 +56,6 @@
     .boutonCo {
         width: 50%;
         height: 5%;
-        font-size: 1.2rem; /* Ajustez la taille de police selon vos préférences */
+        font-size: 1.2rem; /
     }
 }
