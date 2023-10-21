@@ -1,0 +1,169 @@
+.foot {
+    background-color: black;
+    padding-bottom: 97px;
+}
+.foot a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30%;
+}
+
+.res {
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: #E30000;
+}
+
+.logo1 {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.parts {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: white;
+}
+
+.minist {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.colline {
+    padding-left: 2%;
+}
+
+.ba {
+    padding-left: 1%;
+}
+
+.itm {
+    padding-left: 3%;
+}
+
+.pp {
+    padding-left: 3%;
+}
+
+.akar {
+    padding-left: 3%;
+}
+
+.droitegauche {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: space-between;
+}
+
+.suivre {
+    font-family: 'Montserrat';
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 175px;
+    color: white;
+}
+
+.boutonC {
+    margin-bottom: 120px;
+    width: 237px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #920A0A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.boutonC:hover {
+    color: #920a0a;
+    background: white;
+}
+
+.liste_g {
+    margin-top: 20%;
+    font-size: 50px;
+}
+
+.liste_g li {
+    margin-left: 40%;
+}
+
+.liste_d {
+    margin-top: 15%;
+    margin-right: 10%;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 960px) {
+    .droitegauche {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .droite ul, .gauche ul {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .droite h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .boutonC {
+        width: 100%;
+        font-size: 22px;
+        font-weight: 375;
+        margin: 15px 0;
+    }
+    .liste_g li {
+        margin-left: 0%;
+        padding-top: 10%;
+    }
+    .liste_d li {
+        margin-left: 0%;
+        padding-top: 10%;
+    }
+    .parts {
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .droite h2 {
+        font-size: 40px;
+    }
+
+    .gauche h2 {
+        font-size: 16px;
+    }
+
+    .liste_g li {
+        margin-left: 0%;
+        padding-top: 10%;
+    }
+    .parts {
+        padding-top: 10%;
+    }
+}

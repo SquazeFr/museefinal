@@ -6,57 +6,44 @@ body {
     background-size: contain;
 }
 
-header {
-    align-items: center;
-    padding: 5px;
-    background-color: #FFF;
-    color: #333;
-	height: 250px;
+.navbar {
+    background-color: #fff; 
+    color: #000; 
+    text-align: center; 
+    font-family: 'Montserrat Alternates';
 }
 
-header .bandeauSup{
-    display: flex;
+
+/* Style du logo */
+.logo{
+    float: left;
+    margin-left: -1%;
+    margin-top: 5%;
 }
 
-.logo img {
-    margin-top: 10%;
-    width: 60%; 
+.logo img{
+    width: 35%;
+}
+/* Style de la ligne supérieure */
+.top-nav {
+    background-color: #fff; 
+    padding: 5% 0; 
 }
 
-nav {
-    margin-top: 4%;
-    width: 100%;
-}
-nav ul {
-    padding-top: -15%;
-    list-style: none;
-    display: flex;
-	font-size: 250%;
-    justify-content: space-evenly;
-    width: 100%;
-
+.top-nav ul {
+    list-style: none; 
 }
 
-nav ul li { 
-    padding: -30% 20%;
-    padding-left: 5%;
+.top-nav li {
+    display: inline-block; 
+    margin: 0 3%; 
 }
 
-nav ul li a {
-	text-align: center;
-    text-decoration: none;
-    color: #333;
-    text-size-adjust: 50%;
+.top-nav a {
+    text-decoration: none; 
+    color: #000; 
+    font-weight: bold; 
 }
-nav ul li a:hover{
-    color: #e30000;
-}
-
-.bandeauSup {
-	width:100%;
-	height:10px;
-}
-
 
 h2 {
     color: black;
@@ -71,11 +58,13 @@ h2 {
     margin-bottom: 20px;
     text-shadow: #333;
 }
+@media (max-width: 960px) {
+    .top-nav li {
+        margin: 0 10px; 
+    }
 
-h2 {
-
-    grid-column: 2 / 8;
 }
+
 
 .text p {
     color: black;
