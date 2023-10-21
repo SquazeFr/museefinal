@@ -1,7 +1,8 @@
 .foot {
     background-color: black;
-    padding-bottom: 97px;
+    padding-bottom: 50px; /
 }
+
 .foot a {
     text-decoration: none;
     color: #FFF;
@@ -11,10 +12,10 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 30%;
+    margin-bottom: 20px; 
 }
 
-.res {
+.resaux {
     display: flex;
     justify-content: space-between;
 }
@@ -68,14 +69,13 @@ a:hover {
 
 .suivre {
     font-family: 'Montserrat';
-    justify-content: flex-end;
     width: 100%;
     margin-top: 175px;
+    margin-right: -20%;
     color: white;
 }
 
 .boutonC {
-    margin-bottom: 120px;
     width: 237px;
     height: 63px;
     flex-shrink: 0;
@@ -114,21 +114,22 @@ a:hover {
     margin-right: 10%;
     font-size: 50px;
 }
-
 @media screen and (max-width: 960px) {
-    .droitegauche {
-        flex-direction: column;
-        align-items: center;
+    .logo1 {
+        width: 80%; 
+        padding-top: 20px; 
     }
 
     .droite ul, .gauche ul {
-        font-size: 12px;
-        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
 
     .droite h2 {
-        font-size: 20px;
-        width: 100%;
+        font-size: 22px;
     }
 
     .boutonC {
@@ -137,33 +138,59 @@ a:hover {
         font-weight: 375;
         margin: 15px 0;
     }
-    .liste_g li {
-        margin-left: 0%;
-        padding-top: 10%;
+    
+    .liste_g li, .liste_d li {
+        margin: 0;
+        padding: 10px 0;
     }
-    .liste_d li {
-        margin-left: 0%;
-        padding-top: 10%;
-    }
+
     .parts {
-        padding-top: 10%;
+        padding-top: 10px;
+    }
+
+    .suivre {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .foot img:not(.logo1) {
+        width: 30%;
     }
 }
-
+/* Media query pour le format mobile */
 @media screen and (max-width: 750px) {
+    .droitegauche {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .droite ul, .gauche ul {
+        font-size: 14px; 
+        text-align: center;
+        margin: 0; 
+        padding: 0; 
+        list-style: none; 
+    }
+
     .droite h2 {
-        font-size: 40px;
+        font-size: 22px; 
     }
 
-    .gauche h2 {
-        font-size: 16px;
+    .liste_g li, .liste_d li {
+        margin: 0;
+        padding: 10px 0;
     }
 
-    .liste_g li {
-        margin-left: 0%;
-        padding-top: 10%;
-    }
     .parts {
-        padding-top: 10%;
+        padding-top: 10px; 
     }
+
+    .suivre {
+        margin-top: 20px; 
+        margin-right: 0; 
+    }
+
+    .boutonC {
+        width: 100%;
+    } 
 }

@@ -1,8 +1,7 @@
-
 .text p {
     color: black;
     background-color: #D9D9D9;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Montserrat';
     font-weight: 65px;
     font-style: normal;
@@ -21,6 +20,9 @@
     line-height:2
 }
 
+.titre h2{
+    margin-top: 10%;
+}
 :root {
     --grid-gap: 30px;
 }

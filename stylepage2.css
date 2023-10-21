@@ -32,6 +32,7 @@ body {
 
 .top-nav ul {
     list-style: none; 
+    font-size: 30px;
 }
 
 .top-nav li {
@@ -47,7 +48,7 @@ body {
 
 h2 {
     color: black;
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Montserrat Alternates';
     font-weight: 45px;
     font-style: normal;
@@ -85,9 +86,7 @@ h2 {
     display: flex;
 }
 
-section {
-        padding: 5%;
-}
+
 
 :root {
     --grid-gap: 30px;
