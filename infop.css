@@ -23,6 +23,7 @@
 .infp map{
     width: 100%;
     margin-top: 10%;
+    margin-right: 5%;
     flex-wrap: wrap;
 }
 .infp p{
@@ -44,27 +45,39 @@
     height: 100%;
     display: flex;
 }
-
-@media screen and (max-width : 960px){
-    .infp h2{
+@media screen and (max-width: 960px) {
+    .infp h2 {
         font-size: 40px;
-        width: 100%;
     }
-    .infp p{
+
+    .infp .info p {
         font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .infp-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infp iframe.map {
+        margin-top: 0;
         width: 100%;
     }
 
-}
-
-@media screen and (max-width: 750px){
-    .infp h2{
-        font-size: 20px;
+    .infp .info {
+        margin-top: 2%;
     }
-    .infp p{
-        font-size: 12px;
-        width: 100%;
+    
+    .infp h2 {
+        font-size: 30px;
     }
 
+    .infp .info p {
+        font-size: 16px;
+    }
 }
+
 
