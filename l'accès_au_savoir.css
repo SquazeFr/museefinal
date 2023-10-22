@@ -6,7 +6,7 @@
     font-style: normal;
     word-wrap: break-word;
     text-align: left;
-    margin-top: 40;
+    margin-top: 10%;
     margin-left: 10%;
 
 }
@@ -21,6 +21,7 @@
     word-wrap: break-word;
     text-align: left;
     margin-left: 10%;
+    margin-top: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
