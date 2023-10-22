@@ -25,6 +25,7 @@
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
+    padding-right: 5%;
     width: 100%;
     flex-wrap: wrap; 
     justify-content: flex-start;
@@ -54,12 +55,12 @@ h2 {
     grid-column: 1 / 9;
 }
 
-.imgflambeau img {
+.imgflambeau img{
     display: block;
     grid-column: 5 / 12;
     grid-row: 2;
     max-width: 80%;
-    margin-top: -50px;
+    margin-top: 40px;
 }
 
 .presentation-grid {
