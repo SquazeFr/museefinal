@@ -1,4 +1,3 @@
-
 h1 {
     color: #000;
     text-align: center;
@@ -20,6 +19,13 @@ h1 {
     font-weight: 200px;
     line-height: normal;
     text-align: center;
+}
+
+@media (min-width: 960px) {
+    /* Styles spécifiques aux écrans de 768px de large et plus */
+    h1 {
+        font-size: 165px; /* Restaurer la taille de police pour les écrans plus larges */
+    }
 }
 
 @media (min-width: 768px) {

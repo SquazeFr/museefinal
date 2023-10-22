@@ -1,0 +1,83 @@
+.titrecollection h2 {
+    color: black;
+    font-size: 60px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    font-style: normal;
+    word-wrap: break-word;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+.textcollection p {
+    color: black;
+    background-color: #D9D9D9;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height:1.5;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    display: flex;
+}
+
+:root {
+    --grid-gap: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--grid-gap);
+}
+
+.text {
+    padding: var(--grid-gap);
+} 
+
+.titrecollection h2 {
+    grid-column: 2 / 8;
+}
+
+.text {
+    grid-column: 3 / 12;
+}
+
+.imgcollection img {
+    display: block;
+    grid-column: 2 / 6 ;
+    grid-row: 2;
+    max-width: 100%;
+    margin-top: -2%;
+    margin-left: 10%;
+}
+
+.presentation-grid {
+    row-gap: 0px;
+}
+
+@media screen and (max-width: 760px) {
+    .grid {
+    display: block;
+    }
+    .imgcollection img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .grid, img{
+    display: block;
+    }
+}
