@@ -1,0 +1,70 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--grid-gap);
+}
+
+.text-ambition {
+    padding: var(--grid-gap);
+    background: #D9D9D9;
+}
+
+
+.ambition-grid h2 {
+    grid-column: 2 / 12;
+    color: black;
+    font-size: 60px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    font-style: normal;
+    word-wrap: break-word;
+}
+
+.text-ambition {
+    grid-column: 6 / 12;
+}
+
+.ambition-grid p {
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    display: flex;
+    float: right;
+}
+
+.imgambi img {
+    display: block;
+    grid-column: 2 / 4;
+    height: 100%;
+    max-width: 10000%;
+    margin-right: 5%;
+    margin-top: 0;
+}
+
+.ambition-grid {
+    row-gap: 0px;
+}
+
+@media screen and (max-width: 760px) {
+    .grid {
+    display: block;
+    }
+    .img {
+        display: column;
+        padding-left: 10%;
+        float: left;
+    }
+}

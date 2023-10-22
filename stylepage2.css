@@ -107,9 +107,8 @@ h2 {
 img {
     display: block;
     grid-column: 5 / 12;
-    grid-row: 2;
     max-width: 100%;
-    margin-top: -70px;
+    margin-top: -60px;
 }
 
 .presentation-grid {
