@@ -1,0 +1,36 @@
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    width: 100%; 
+    margin: 50px 0;
+}
+.imgf {
+    background-image: url(images/image-fond-titre.png);
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    width: 100%;
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-size: 600%; 
+    font-style: normal;
+    font-weight: 200px;
+    line-height: normal;
+    text-align: center;
+}
+
+@media (min-width: 960px) {
+    /* Styles spécifiques aux écrans de 768px de large et plus */
+    h1 {
+        font-size: 165px; /* Restaurer la taille de police pour les écrans plus larges */
+    }
+}
+
+@media (min-width: 768px) {
+    /* Styles spécifiques aux écrans de 768px de large et plus */
+    h1 {
+        font-size: 165px; /* Restaurer la taille de police pour les écrans plus larges */
+    }
+}

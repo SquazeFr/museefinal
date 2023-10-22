@@ -1,0 +1,75 @@
+.titreacces h2 {
+    color: black;
+    font-size: 60px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    font-style: normal;
+    word-wrap: break-word;
+    text-align: left;
+    margin-top: 40;
+    margin-left: 10%;
+
+}
+
+.textacces p {
+    color: black;
+    background-color: #D9D9D9;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    display: flex;
+    line-height:1.5;
+}
+
+:root {
+    --grid-gap: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--grid-gap);
+}
+
+.text {
+    padding: var(--grid-gap);
+} 
+
+h2 {
+    grid-column: 2 / 8;
+}
+
+.text {
+    grid-column: 1 / 9;
+}
+
+.imgacces img {
+    display: block;
+    grid-column: 5 / 12;
+    grid-row: 2;
+    max-width: 100%;
+    margin-top: 0;
+}
+
+.presentation-grid {
+    row-gap: 0px;
+}
+
+@media screen and (max-width: 760px) {
+    .grid {
+    display: block;
+    }
+    .imgacces img{
+        width: 100%;
+    }
+}
